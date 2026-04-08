@@ -1,5 +1,11 @@
 # 📟 This repository contains several projects I've completed on various FPGAs, including code, help files, and results.
 
+---
+
+### 🙌 Pueden traducir este y los demas repositorios, con el traductor de google de su navegador web o con alguna otra extensión 🙌
+
+---
+
 ### 📌 Some abbreviations (like "C_V", "C_IV", "X_N_3", etc.) are for the following FPGAs:
  - C --> Altera Cyclone / V, IV (Board model)
  - X --> Xilinx / N --> Nexys (Board model) / N° [e.g: 3] (Version number of the board model)
