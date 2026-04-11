@@ -138,10 +138,11 @@
 └── 📌 README.md
 ```
 
-¡I hope you find it useful!
-
+### I hope you found this helpful and enjoyable. If so, leave a star ⭐ Best wishes and much success!
 
 🙌 Credits to: 
 - *Prof. Dr. Marco Winzker* from Bonn-Rhein-Sieg University of Applied Sciences
 - *Andrea Schwandt* from Bonn-Rhein-Sieg University of Applied Sciences
 - *Alejandro Enrique Nuñez Manquez* from Universidad Nacional de San Luis
+
+
