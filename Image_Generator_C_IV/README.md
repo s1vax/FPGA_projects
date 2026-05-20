@@ -7,6 +7,8 @@ This project implements a synthetic video signal generator in VHDL. Its main fun
 
 </p>
 
+<br>
+<br>
 
 ## 📂 Folder Content
   * **`street_image.vhd`**: The heart of the project. It generates VGA sync signals (640x480 @ 60Hz) and procedurally "draws" the scene.
@@ -16,9 +18,14 @@ This project implements a synthetic video signal generator in VHDL. Its main fun
   * **`sim_street_image.vhd`**: Testbench designed to visually validate the generator.
      * It generates an `.ppm` (Portable Pixel Map) output file that allows you to see on your computer the exact image that the FPGA would send to the VGA monitor.
 
+<br>
+<br>
+
+
 ## 🚀 How to test & implement the Generator
 
 This project does not require a real camera. You can view the output directly through simulation or remote labs (you can check this out on `Projects_Results/` of this repository):
+
 
 * ***📌 Simulation on ModelSim:***
 
@@ -29,7 +36,7 @@ This project does not require a real camera. You can view the output directly th
 
 ⚠️ ***Clarification:*** To resolve doubts about how to perform the first steps and configure the simulation in ModelSim, consult the detailed guide in the `Lane_detection_C_V` directory of this repository.
 
----
+<br>
 
 * ***📌 Implementation on Quartus Prime & FPGA board:***
 1. Load the `street_image.vhd` and `lane_default_Cyclone_IV.qsf` (pin map) files into Quartus Prime, and run the Synthesis.
@@ -37,13 +44,18 @@ This project does not require a real camera. You can view the output directly th
 
 ⚠️ ***Clarification:*** To resolve doubts about how to perform the first steps and configuration of the implementation in Quartus Prime, consult the detailed guide in the `Lane_detection_C_V` directory of this repository.
 
----
+
+<br>
+<br>
 
   ### 🕵️ We can add an extra: Processing Modules (Lane Detection)
 *This folder also includes the same files found in the FPGA `Lane_detection_C_V` project (from this same repository), so we can apply its algorithm to `Image_Generator_C_IV`:*
 * **`lane.vhd`**: Upper entity that takes the video signal and applies lane detection.
 * **`lane_sobel.vhd`**: Implementation of the Sobel filter to detect lanes.
 * **`lane_linemem.vhd`**: Line buffer for 3x3 window processing.
+
+<br>
+<br>
 
 ## ⚙️ VGA Technical Details
 The generator follows the industrial VGA timing standard:
