@@ -8,7 +8,8 @@
 
 ### 🗃️ Project structure
 ```
-⚜️ FPGA_projects/
+💻 FPGA_projects
+
 ├── 📌 FIR_Filter_C_V  
 │   ├──🔻Octave Images/
 │   │   ├── street_A.bmp
