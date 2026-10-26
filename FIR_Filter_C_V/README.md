@@ -7,6 +7,36 @@ This directory contains the hardware implementation of an FIR (Finite Impulse Re
 
 <br>
 
+```
+├── 📌 FIR_Filter_C_V
+    ├──🔻VHD Files/
+    │   ├── sharp.vhd
+    │   ├── sharp_arith.vhd
+    │   ├── sharp_control.vhd
+    │   ├── sharp_linemem.vhd
+    │   ├── sharp_slice.vhd
+    │   ├── sim_sharp.vhd
+    │   └── sim_sharp_self-checking.vhd
+    |
+    ├──🔻Octave testing/
+    │   ├── prueba1.m
+    │   ├── sharp_generate_testbench_images.m
+    │   ├── sharp_image_filter.m
+    │   └── write_ascii_ppm.m
+    |
+    ├──🔻Octave Images/
+    │   ├── street_A.bmp
+    │   └── street_AA.bmp
+    │
+    ├──🔹sharp.sdc
+    │
+    ├──🔹sharp_default_Cyclone_V.qsf
+    |
+    └──🔹README.md
+```
+
+<br>
+
 ## 📂 Folder Content
 
 * **`VHD Files/`**: VHDL source code. Includes:
