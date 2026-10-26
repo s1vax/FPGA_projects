@@ -6,6 +6,50 @@ This directory contains the hardware implementation of a Lane Detection algorith
 
 
 <br>
+
+```
+├── 📌 Lane_detection_C_V/         
+    ├──🔻C files/
+    │   ├── bmp24_io.c
+    │   ├── bmp2sim.c
+    │   ├── lane_fixed.c
+    │   ├── lane_float.c
+    │   ├── lane_testbench.c
+    │   └── simp2bmp.c
+    │
+    ├──🔻Images/
+    │   ├──🔻Simulation Looks like
+    │   │   ├── VHDL Simulation 2.png
+    │   │   └── VHDL Simulation.png
+    │   │     
+    │   ├── Street_A_edge_fixed.bmp
+    │   ├── Street_C_edge_float.bmp
+    │   ├── street_A.bmp
+    │   ├── street_A_edge_float.bmp
+    │   ├── street_B.bmp
+    │   ├── street_B_edge_float.bmp
+    │   └── street_C.bmp
+    │
+    ├──🔻Input and Output images txt (self-testbench)/
+    │   ├── street_0_expected.txt
+    │   └── street_0_stimuli.txt
+    │
+    ├──🔻VHD Files/
+    │   ├── lane.vhd
+    │   ├── lane_g_matrix.vhd
+    │   ├── lane_g_root.mif
+    │   ├── lane_g_root_IP.vhd
+    │   ├── lane_linemem.vhd
+    │   ├── lane_sobel.vhd
+    │   ├── lane_sync.vhd
+    │   └── sim_lane.vhd
+    │
+    ├──🔹README.md
+    │
+    └──🔹a.exe
+
+```
+
 <br>
 
 
